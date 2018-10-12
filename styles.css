@@ -1,0 +1,318 @@
+body{
+  background-color: #E3CBAC;
+  font-family: 'Ubuntu Mono', monospace;
+
+}
+.logbox{
+  width: 280px;
+  height: 340px;
+  color: ;
+  background:#B1B1B1 ;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+.logbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logbox input[type="text"], input[type="password"]
+{
+    border-style: none;
+    background: #B1B1B1;
+    border-bottom-style: solid;
+    border-bottom-color: #7CFC00;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+}
+.logbox input[type="text"], input[type="username"]
+{
+    border-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color: #7CFC00;
+    background: #B1B1B1;
+    outline: none;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+}
+.logbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 25px;
+    background: ;
+    color: #2D3257;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight:normal;
+    width: 200px;
+    align: center;
+}
+.logbox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #7CFC00;
+
+}
+
+.logbox p{
+  color: #2D3257;
+}
+.logbox h1{
+    text-align:center;
+}
+.logbox2
+{
+  width: 280px;
+  height: 500px;
+  color: ;
+  background:#B1B1B1 ;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+.logbox2 input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #7CFC00;
+
+}
+.logbox2 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 25px;
+    background: ;
+    color: #2D3257;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight:normal;
+    width: 200px;
+    align: center;
+}
+.logbox2 input[type="text"]
+{
+    border-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color: #7CFC00;
+    background: #B1B1B1;
+    outline: none;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+    width: 100%;
+}
+.logbox2 input[type="number"]
+{
+    border-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color: ##7CFC00;
+    background: #B1B1B1;
+    outline: none;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+    width: 100%;
+}
+.prod{
+
+    width: 280px;
+    height: 300px;
+    color: ;
+    background:#B1B1B1 ;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 40px;
+}
+.prod input[type="text"]
+{
+    border-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color: #7CFC00;
+    background: #B1B1B1;
+    outline: none;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+    width: 100%;
+}
+.prod input[type="number"]
+{
+  border-style: none ;
+  border-bottom-style: solid;
+  border-bottom-color: #7CFC00;
+  background: #B1B1B1;
+  outline: none;
+  height: 20px;
+  color: ;
+  font-size: 16px;
+  width: 100%;
+}
+.prod input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 25px;
+    background: ;
+    color: #2D3257;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight:normal;
+    width: 200px;
+    align: center;
+}
+
+.prod input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #7CFC00;
+}
+table
+{
+    width: 100%;
+}
+
+th
+{
+    height: 50px;
+    text-align: left;
+}
+
+th, td
+{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover
+{
+  background-color: #f5f5f5;
+}
+.prod-list{
+  list-style-type: none;
+}
+.prod-list.img
+{
+width: 100px;
+height: 100px;}
+
+.prod-list input[type="text"]
+  {
+      border-style: none ;
+      border-bottom-style: solid;
+      border-bottom-color: #7CFC00;
+      background: #B1B1B1;
+      outline: none;
+      height: 20px;
+      color: ;
+      font-size: 16px;
+  }
+
+.prod-list input[type="submit"]
+  {
+      border: none;
+      outline: none;
+      height: 25px;
+      background: ;
+      color: #2D3257;
+      font-size: 14px;
+      border-radius: 2px;
+      font-weight:normal;
+      width: 200px;
+      align: center;
+  }
+.prod-list input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #7CFC00;
+
+}
+.prod-new
+{
+  width: 500px;
+  height: 360px;
+  color: ;
+  background:#B1B1B1 ;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+.prod-new input[type="button"]:hover
+{
+  cursor: pointer;
+  background: #7CFC00;
+
+}
+.prod-new input[type="file"]:hover
+{
+  cursor: pointer;
+  background: #7CFC00;
+
+}
+.prod-new input[type="text"]
+{
+    border-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color: #7CFC00;
+    background: #B1B1B1;
+    outline: none;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+    width: 100%;
+}
+.prod-new input[type="number"]
+{
+    border-style: none ;
+    border-bottom-style: solid;
+    border-bottom-color: #7CFC00;
+    background: #B1B1B1;
+    outline: none;
+    height: 20px;
+    color: ;
+    font-size: 16px;
+    width: 100%;
+}
+
+.admin-ds
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 45px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+.admin-ds h1
+{
+    color: white;
+    text-transform: none;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 200px;
+}
+.admin-ds-btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    align: center;
+    font-size: 17.5px;
+    text-transform: none;
+    text-align: center;
+}
